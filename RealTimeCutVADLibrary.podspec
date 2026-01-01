@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RealTimeCutVADLibrary'
-  s.version          = '1.0.13'
+  s.version          = '1.0.14'
   s.summary          = 'A real-time VAD library for iOS'
   s.homepage         = 'https://github.com/helloooideeeeea/RealTimeCutVADLibrary'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -15,18 +15,10 @@ Pod::Spec.new do |s|
   s.prepare_command = <<-CMD
   curl -LO https://github.com/helloooideeeeea/RealTimeCutVADLibraryForXCFramework/releases/download/v1.0.3/RealTimeCutVADCXXLibrary.xcframework.zip
   unzip -o RealTimeCutVADCXXLibrary.xcframework.zip -d RealTimeCutVADLibrary/Frameworks
-
-  curl -LO https://github.com/helloooideeeeea/RealTimeCutVADLibraryForXCFramework/releases/download/v1.0.6/onnxruntime.xcframework.zip
-  unzip -o onnxruntime.xcframework.zip -d RealTimeCutVADLibrary/Frameworks
-
-  curl -LO https://github.com/helloooideeeeea/RealTimeCutVADLibraryForXCFramework/releases/download/v1.0.6/webrtc_audio_processing.xcframework.zip
-  unzip -o webrtc_audio_processing.xcframework.zip -d RealTimeCutVADLibrary/Frameworks
 CMD
   
   s.vendored_frameworks = [
     'RealTimeCutVADLibrary/Frameworks/RealTimeCutVADCXXLibrary.xcframework',
-    'RealTimeCutVADLibrary/Frameworks/onnxruntime.xcframework',
-    'RealTimeCutVADLibrary/Frameworks/webrtc_audio_processing.xcframework'
   ]
 
   s.requires_arc = true

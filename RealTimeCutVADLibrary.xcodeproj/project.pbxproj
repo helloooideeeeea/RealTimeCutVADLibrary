@@ -48,7 +48,9 @@
 		80B0BF902D5085970088BCF2 /* Exceptions for "RealTimeCutVADLibrary" folder in "RealTimeCutVADLibrary" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Frameworks/onnxruntime.xcframework,
 				Frameworks/README.txt,
+				Frameworks/webrtc_audio_processing.xcframework,
 			);
 			publicHeaders = (
 				src/include/VADWrapper.h,
@@ -62,14 +64,10 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				Frameworks/RealTimeCutVADCXXLibrary.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-				Frameworks/onnxruntime.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-				Frameworks/webrtc_audio_processing.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
 			};
 			buildPhase = 80A442502D978BDA00D6E183 /* Embed Frameworks */;
 			membershipExceptions = (
-				Frameworks/onnxruntime.xcframework,
 				Frameworks/RealTimeCutVADCXXLibrary.xcframework,
-				Frameworks/webrtc_audio_processing.xcframework,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */

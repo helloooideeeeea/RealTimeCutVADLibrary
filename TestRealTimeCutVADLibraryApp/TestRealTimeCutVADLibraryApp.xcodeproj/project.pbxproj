@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		801FBC7D2DA262E700F88908 /* RealTimeCutVADLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 801FBC7C2DA262E700F88908 /* RealTimeCutVADLibrary */; };
-		80A4426F2D97922200D6E183 /* RealTimeCutVADLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 80A4426E2D97922200D6E183 /* RealTimeCutVADLibrary */; };
+		802CA8B82F065F46008346E8 /* RealTimeCutVADLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 802CA8B72F065F46008346E8 /* RealTimeCutVADLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,8 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801FBC7D2DA262E700F88908 /* RealTimeCutVADLibrary in Frameworks */,
-				80A4426F2D97922200D6E183 /* RealTimeCutVADLibrary in Frameworks */,
+				802CA8B82F065F46008346E8 /* RealTimeCutVADLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +133,7 @@
 			mainGroup = 807D20C22D523E5A004AB1AD;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				801FBC7B2DA262E700F88908 /* XCLocalSwiftPackageReference "RealTimeCutVADLibrary" */,
+				802CA8B62F065F46008346E8 /* XCLocalSwiftPackageReference "../../RealTimeCutVADLibrary" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 807D20CC2D523E5A004AB1AD /* Products */;
@@ -183,12 +181,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.code-concept.TestRealTimeCutVADLibraryApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -212,12 +210,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.code-concept.TestRealTimeCutVADLibraryApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -369,31 +367,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		801FBC7B2DA262E700F88908 /* XCLocalSwiftPackageReference "RealTimeCutVADLibrary" */ = {
+		802CA8B62F065F46008346E8 /* XCLocalSwiftPackageReference "../../RealTimeCutVADLibrary" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../RealTimeCutVADLibrary;
 		};
 /* End XCLocalSwiftPackageReference section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		80A4426D2D97922200D6E183 /* XCRemoteSwiftPackageReference "RealTimeCutVADLibrary" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/helloooideeeeea/RealTimeCutVADLibrary";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.7;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		801FBC7C2DA262E700F88908 /* RealTimeCutVADLibrary */ = {
+		802CA8B72F065F46008346E8 /* RealTimeCutVADLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = RealTimeCutVADLibrary;
-		};
-		80A4426E2D97922200D6E183 /* RealTimeCutVADLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80A4426D2D97922200D6E183 /* XCRemoteSwiftPackageReference "RealTimeCutVADLibrary" */;
 			productName = RealTimeCutVADLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
